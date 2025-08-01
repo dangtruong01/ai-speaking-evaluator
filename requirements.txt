@@ -3,3 +3,7 @@ torch
 openai-whisper
 soundfile
 numpy
+praat-parselmouth
+python-Levenshtein
+montreal-forced-aligner
+nltk
