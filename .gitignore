@@ -1,0 +1,20 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
+
+# Ignore virtual environment directories
+venv/
+
+# Ignore data files
+data/HQTV/*
+data/PNV/*
+data/THV/*
+data/TLV/*
