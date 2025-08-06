@@ -1,4 +1,3 @@
-whisper
 torch
 openai-whisper
 soundfile

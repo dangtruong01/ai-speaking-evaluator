@@ -1,0 +1,339 @@
+{
+    "transcript": " for the 23rd time, that evening the two men shook hands.",
+    "expected_phonemes": [
+        "F",
+        "AO1",
+        "R",
+        "DH",
+        "AH0",
+        "UNK",
+        "T",
+        "AY1",
+        "M",
+        "DH",
+        "AE1",
+        "T",
+        "IY1",
+        "V",
+        "N",
+        "IH0",
+        "NG",
+        "DH",
+        "AH0",
+        "T",
+        "UW1",
+        "M",
+        "EH1",
+        "N",
+        "SH",
+        "UH1",
+        "K",
+        "HH",
+        "AE1",
+        "N",
+        "D",
+        "Z"
+    ],
+    "actual_phonemes": [
+        "F",
+        "AA",
+        "DH",
+        "AA",
+        "UNK",
+        "T",
+        "AY",
+        "M",
+        "AE",
+        "T",
+        "EH",
+        "V",
+        "EH",
+        "N",
+        "IY",
+        "NG",
+        "G",
+        "DH",
+        "AA",
+        "T",
+        "UW",
+        "M",
+        "EH",
+        "N",
+        "SH",
+        "UH",
+        "K",
+        "HH",
+        "AA",
+        "N",
+        "D",
+        "Z"
+    ],
+    "pronunciation_score": 0.4375,
+    "details": {
+        "pred_phonemes": [
+            "F",
+            "AA",
+            "DH",
+            "AA",
+            "UNK",
+            "T",
+            "AY",
+            "M",
+            "AE",
+            "T",
+            "EH",
+            "V",
+            "EH",
+            "N",
+            "IY",
+            "NG",
+            "G",
+            "DH",
+            "AA",
+            "T",
+            "UW",
+            "M",
+            "EH",
+            "N",
+            "SH",
+            "UH",
+            "K",
+            "HH",
+            "AA",
+            "N",
+            "D",
+            "Z"
+        ],
+        "score": 0.4375,
+        "reference": [
+            "F",
+            "AO1",
+            "R",
+            "DH",
+            "AH0",
+            "UNK",
+            "T",
+            "AY1",
+            "M",
+            "DH",
+            "AE1",
+            "T",
+            "IY1",
+            "V",
+            "N",
+            "IH0",
+            "NG",
+            "DH",
+            "AH0",
+            "T",
+            "UW1",
+            "M",
+            "EH1",
+            "N",
+            "SH",
+            "UH1",
+            "K",
+            "HH",
+            "AE1",
+            "N",
+            "D",
+            "Z"
+        ],
+        "actual": [
+            "F",
+            "AA",
+            "DH",
+            "AA",
+            "UNK",
+            "T",
+            "AY",
+            "M",
+            "AE",
+            "T",
+            "EH",
+            "V",
+            "EH",
+            "N",
+            "IY",
+            "NG",
+            "G",
+            "DH",
+            "AA",
+            "T",
+            "UW",
+            "M",
+            "EH",
+            "N",
+            "SH",
+            "UH",
+            "K",
+            "HH",
+            "AA",
+            "N",
+            "D",
+            "Z"
+        ],
+        "phoneme_matches": [
+            {
+                "actual": "F",
+                "reference": "F",
+                "match": true
+            },
+            {
+                "actual": "AA",
+                "reference": "AO1",
+                "match": false
+            },
+            {
+                "actual": "DH",
+                "reference": "R",
+                "match": false
+            },
+            {
+                "actual": "AA",
+                "reference": "DH",
+                "match": false
+            },
+            {
+                "actual": "UNK",
+                "reference": "AH0",
+                "match": false
+            },
+            {
+                "actual": "T",
+                "reference": "UNK",
+                "match": false
+            },
+            {
+                "actual": "AY",
+                "reference": "T",
+                "match": false
+            },
+            {
+                "actual": "M",
+                "reference": "AY1",
+                "match": false
+            },
+            {
+                "actual": "AE",
+                "reference": "M",
+                "match": false
+            },
+            {
+                "actual": "T",
+                "reference": "DH",
+                "match": false
+            },
+            {
+                "actual": "EH",
+                "reference": "AE1",
+                "match": false
+            },
+            {
+                "actual": "V",
+                "reference": "T",
+                "match": false
+            },
+            {
+                "actual": "EH",
+                "reference": "IY1",
+                "match": false
+            },
+            {
+                "actual": "N",
+                "reference": "V",
+                "match": false
+            },
+            {
+                "actual": "IY",
+                "reference": "N",
+                "match": false
+            },
+            {
+                "actual": "NG",
+                "reference": "IH0",
+                "match": false
+            },
+            {
+                "actual": "G",
+                "reference": "NG",
+                "match": false
+            },
+            {
+                "actual": "DH",
+                "reference": "DH",
+                "match": true
+            },
+            {
+                "actual": "AA",
+                "reference": "AH0",
+                "match": false
+            },
+            {
+                "actual": "T",
+                "reference": "T",
+                "match": true
+            },
+            {
+                "actual": "UW",
+                "reference": "UW1",
+                "match": true
+            },
+            {
+                "actual": "M",
+                "reference": "M",
+                "match": true
+            },
+            {
+                "actual": "EH",
+                "reference": "EH1",
+                "match": true
+            },
+            {
+                "actual": "N",
+                "reference": "N",
+                "match": true
+            },
+            {
+                "actual": "SH",
+                "reference": "SH",
+                "match": true
+            },
+            {
+                "actual": "UH",
+                "reference": "UH1",
+                "match": true
+            },
+            {
+                "actual": "K",
+                "reference": "K",
+                "match": true
+            },
+            {
+                "actual": "HH",
+                "reference": "HH",
+                "match": true
+            },
+            {
+                "actual": "AA",
+                "reference": "AE1",
+                "match": false
+            },
+            {
+                "actual": "N",
+                "reference": "N",
+                "match": true
+            },
+            {
+                "actual": "D",
+                "reference": "D",
+                "match": true
+            },
+            {
+                "actual": "Z",
+                "reference": "Z",
+                "match": true
+            }
+        ]
+    }
+}
