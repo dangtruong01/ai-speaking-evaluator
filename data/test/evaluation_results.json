@@ -68,7 +68,7 @@
         "D",
         "Z"
     ],
-    "pronunciation_score": 0.4375,
+    "pronunciation_score": 0.8,
     "details": {
         "pred_phonemes": [
             "F",
@@ -104,7 +104,7 @@
             "D",
             "Z"
         ],
-        "score": 0.4375,
+        "score": 0.8,
         "reference": [
             "F",
             "AO1",
@@ -177,163 +177,379 @@
             {
                 "actual": "F",
                 "reference": "F",
-                "match": true
+                "match": true,
+                "score": 1.0
+            },
+            {
+                "actual": "---",
+                "reference": "AO1",
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "AA",
-                "reference": "AO1",
-                "match": false
+                "reference": "R",
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "DH",
-                "reference": "R",
-                "match": false
+                "reference": "DH",
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "AA",
-                "reference": "DH",
-                "match": false
+                "reference": "AH0",
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "UNK",
-                "reference": "AH0",
-                "match": false
+                "reference": "UNK",
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "T",
-                "reference": "UNK",
-                "match": false
+                "reference": "T",
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "AY",
-                "reference": "T",
-                "match": false
+                "reference": "AY1",
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "M",
-                "reference": "AY1",
-                "match": false
+                "reference": "M",
+                "match": true,
+                "score": 1.0
+            },
+            {
+                "actual": "---",
+                "reference": "DH",
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "AE",
-                "reference": "M",
-                "match": false
+                "reference": "AE1",
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "T",
-                "reference": "DH",
-                "match": false
-            },
-            {
-                "actual": "EH",
-                "reference": "AE1",
-                "match": false
-            },
-            {
-                "actual": "V",
                 "reference": "T",
-                "match": false
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "EH",
                 "reference": "IY1",
-                "match": false
+                "match": false,
+                "score": 0.0
+            },
+            {
+                "actual": "V",
+                "reference": "V",
+                "match": true,
+                "score": 1.0
+            },
+            {
+                "actual": "EH",
+                "reference": "---",
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "N",
-                "reference": "V",
-                "match": false
+                "reference": "N",
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "IY",
-                "reference": "N",
-                "match": false
+                "reference": "IH0",
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "NG",
-                "reference": "IH0",
-                "match": false
+                "reference": "NG",
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "G",
-                "reference": "NG",
-                "match": false
+                "reference": "---",
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "DH",
                 "reference": "DH",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "AA",
                 "reference": "AH0",
-                "match": false
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "T",
                 "reference": "T",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "UW",
                 "reference": "UW1",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "M",
                 "reference": "M",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "EH",
                 "reference": "EH1",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "N",
                 "reference": "N",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "SH",
                 "reference": "SH",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "UH",
                 "reference": "UH1",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "K",
                 "reference": "K",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "HH",
                 "reference": "HH",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "AA",
                 "reference": "AE1",
-                "match": false
+                "match": false,
+                "score": 0.0
             },
             {
                 "actual": "N",
                 "reference": "N",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "D",
                 "reference": "D",
-                "match": true
+                "match": true,
+                "score": 1.0
             },
             {
                 "actual": "Z",
                 "reference": "Z",
-                "match": true
+                "match": true,
+                "score": 1.0
             }
+        ],
+        "alignment": [
+            [
+                "F",
+                "F",
+                1.0
+            ],
+            [
+                "GAP",
+                "AO1",
+                0.0
+            ],
+            [
+                "AA",
+                "R",
+                0.0
+            ],
+            [
+                "DH",
+                "DH",
+                1.0
+            ],
+            [
+                "AA",
+                "AH0",
+                0.0
+            ],
+            [
+                "UNK",
+                "UNK",
+                1.0
+            ],
+            [
+                "T",
+                "T",
+                1.0
+            ],
+            [
+                "AY",
+                "AY1",
+                1.0
+            ],
+            [
+                "M",
+                "M",
+                1.0
+            ],
+            [
+                "GAP",
+                "DH",
+                0.0
+            ],
+            [
+                "AE",
+                "AE1",
+                1.0
+            ],
+            [
+                "T",
+                "T",
+                1.0
+            ],
+            [
+                "EH",
+                "IY1",
+                0.0
+            ],
+            [
+                "V",
+                "V",
+                1.0
+            ],
+            [
+                "EH",
+                "GAP",
+                0.0
+            ],
+            [
+                "N",
+                "N",
+                1.0
+            ],
+            [
+                "IY",
+                "IH0",
+                0.0
+            ],
+            [
+                "NG",
+                "NG",
+                1.0
+            ],
+            [
+                "G",
+                "GAP",
+                0.0
+            ],
+            [
+                "DH",
+                "DH",
+                1.0
+            ],
+            [
+                "AA",
+                "AH0",
+                0.0
+            ],
+            [
+                "T",
+                "T",
+                1.0
+            ],
+            [
+                "UW",
+                "UW1",
+                1.0
+            ],
+            [
+                "M",
+                "M",
+                1.0
+            ],
+            [
+                "EH",
+                "EH1",
+                1.0
+            ],
+            [
+                "N",
+                "N",
+                1.0
+            ],
+            [
+                "SH",
+                "SH",
+                1.0
+            ],
+            [
+                "UH",
+                "UH1",
+                1.0
+            ],
+            [
+                "K",
+                "K",
+                1.0
+            ],
+            [
+                "HH",
+                "HH",
+                1.0
+            ],
+            [
+                "AA",
+                "AE1",
+                0.0
+            ],
+            [
+                "N",
+                "N",
+                1.0
+            ],
+            [
+                "D",
+                "D",
+                1.0
+            ],
+            [
+                "Z",
+                "Z",
+                1.0
+            ]
         ]
     }
 }
