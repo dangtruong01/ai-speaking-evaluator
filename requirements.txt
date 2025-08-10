@@ -6,3 +6,6 @@ praat-parselmouth
 python-Levenshtein
 montreal-forced-aligner
 nltk
+textgrid
+
+# conda install -c conda-forge montreal-forced-aligner kaldi
